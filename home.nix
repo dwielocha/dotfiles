@@ -107,6 +107,7 @@
     google-chrome
     vlc
     slack
+    flameshot
     # Import Scripts
     (import ./scripts/emopicker9000.nix { inherit pkgs; })
     (import ./scripts/task-waybar.nix { inherit pkgs; })
@@ -117,11 +118,6 @@
   programs.vscode = {
     enable = true;
     package = pkgs.vscode;
-  };
-
-  home.services.flameshot = {
-    enable = true;
-    extraOptions = "--path \${HOME}/Pictures";
   };
 
   # Configure Cursor Theme
