@@ -1,5 +1,6 @@
 {
   "window.titleBarStyle": "custom",
   "telemetry.telemetryLevel": "off",
-  "nix.enableLanguageServer": true
+  "nix.enableLanguageServer": true,
+  "git.confirmSync": false
 }
