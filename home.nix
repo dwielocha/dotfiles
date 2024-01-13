@@ -47,6 +47,9 @@
     enable = true;
     userName = "${gitUsername}";
     userEmail = "${gitEmail}";
+    extraConfig = {
+      init.defaultBranch = "main";
+    };
   };
 
   # Install Packages For The User
@@ -91,7 +94,6 @@
     rustup
     pavucontrol
     audacity
-    zeroad
     xonotic
     font-awesome
     symbola
@@ -103,6 +105,7 @@
     bun
     nodejs_20
     google-chrome
+    vlc
     # Import Scripts
     (import ./scripts/emopicker9000.nix { inherit pkgs; })
     (import ./scripts/task-waybar.nix { inherit pkgs; })
