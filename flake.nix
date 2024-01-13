@@ -8,6 +8,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     hyprland.url = "github:hyprwm/Hyprland";
+    hyprland-contrib = {
+      url = "github:hyprwm/contrib";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs @ { self, nixpkgs, home-manager, ... }:
@@ -47,6 +51,7 @@
                 inherit username;
                 inherit gitUsername;
                 inherit gitEmail;
+                inherit inputs;
               };
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;

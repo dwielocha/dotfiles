@@ -1,4 +1,4 @@
-{ config, pkgs, username, gitUsername, gitEmail, ... }:
+{ config, pkgs, username, gitUsername, gitEmail, inputs, ... }:
 
 {
   # Home Manager Settings
@@ -107,6 +107,7 @@
     google-chrome
     vlc
     slack
+    inputs.hyprland-contrib.packages.${pkgs.system}.grimblast
     # Import Scripts
     (import ./scripts/emopicker9000.nix { inherit pkgs; })
     (import ./scripts/task-waybar.nix { inherit pkgs; })
