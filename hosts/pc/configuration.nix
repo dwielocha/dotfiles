@@ -139,6 +139,11 @@
   services.gvfs.enable = true;
   services.tumbler.enable = true;
 
+  services.flameshot = {
+    enable = true;
+    extraOptions = "--path \${HOME}/Pictures";
+  };
+
   system.stateVersion = "23.11";
   nix = {
     settings.auto-optimise-store = true;
