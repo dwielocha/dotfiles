@@ -113,9 +113,15 @@
     (import ./scripts/squirtle.nix { inherit pkgs; })
     (import ./scripts/wallsetter.nix { inherit pkgs; })
   ];
+
   programs.vscode = {
     enable = true;
     package = pkgs.vscode;
+  };
+
+  home.services.flameshot = {
+    enable = true;
+    extraOptions = "--path \${HOME}/Pictures";
   };
 
   # Configure Cursor Theme
