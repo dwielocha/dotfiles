@@ -84,8 +84,6 @@
     mpv
     neofetch
     ninja
-    nodejs
-    nodejs_20
     noto-fonts-color-emoji
     pavucontrol
     pkg-config

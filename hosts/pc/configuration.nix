@@ -62,7 +62,6 @@
     curl
     htop
     git
-    nodejs_20
   ];
 
   fonts.packages = with pkgs; [
