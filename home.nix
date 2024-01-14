@@ -184,10 +184,6 @@
       #fi
       ###
     '';
-    bashrcExtra = ''
-      export NVM_DIR="$HOME/.nvm"
-      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    '';
     sessionVariables = { };
     shellAliases = {
       flake-rebuild = "sudo nixos-rebuild switch --flake ~/.dotfiles/#pc";
