@@ -182,6 +182,7 @@
       #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
       #  exec Hyprland
       #fi
+      ###
     '';
     bashrcExtra = ''
       export NVM_DIR="$HOME/.nvm"
