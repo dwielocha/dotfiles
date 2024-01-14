@@ -56,6 +56,7 @@
   home.packages = with pkgs; [
     audacity
     bibata-cursors
+    biome
     btop
     bun
     cmatrix

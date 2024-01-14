@@ -97,7 +97,6 @@
   programs.hyprland = {
     enable = true;
     package = inputs.hyprland.packages.${pkgs.system}.hyprland;
-    enableNvidiaPatches = true;
   };
 
   # Some programs need SUID wrappers, can be configured further or are started in user sessions.
