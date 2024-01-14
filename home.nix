@@ -54,59 +54,59 @@
 
   # Install Packages For The User
   home.packages = with pkgs; [
-    neofetch
-    lolcat
+    audacity
+    bibata-cursors
+    btop
+    bun
     cmatrix
+    cowsay
     discord
     firefox
-    btop
-    libvirt
-    swww
-    polkit_gnome
-    grim
-    slurp
-    lm_sensors
-    unzip
-    unrar
-    gnome.file-roller
-    libnotify
-    swaynotificationcenter
-    rofi-wayland
-    imv
-    v4l-utils
-    ydotool
-    wl-clipboard
-    socat
-    cowsay
-    lsd
-    pkg-config
-    transmission-gtk
-    mpv
-    gimp
-    kdenlive
-    meson
-    hugo
-    gnumake
-    ninja
-    go
-    nodejs
-    godot_4
-    rustup
-    pavucontrol
-    audacity
-    xonotic
     font-awesome
-    symbola
-    noto-fonts-color-emoji
-    material-icons
-    spotify
-    rnix-lsp
-    bibata-cursors
-    bun
-    nodejs_20
+    gimp
+    gnome.file-roller
+    gnumake
+    go
+    godot_4
     google-chrome
-    vlc
+    grim
+    hugo
+    imv
+    kdenlive
+    libnotify
+    libvirt
+    lm_sensors
+    lolcat
+    lsd
+    material-icons
+    meson
+    mpv
+    neofetch
+    ninja
+    nodejs
+    nodejs_20
+    noto-fonts-color-emoji
+    pavucontrol
+    pkg-config
+    polkit_gnome
+    rnix-lsp
+    rofi-wayland
+    rustup
     slack
+    slurp
+    socat
+    spotify
+    swaynotificationcenter
+    swww
+    symbola
+    transmission-gtk
+    unrar
+    unzip
+    v4l-utils
+    vlc
+    wl-clipboard
+    xonotic
+    ydotool
     inputs.hyprland-contrib.packages.${pkgs.system}.grimblast
     # Import Scripts
     (import ./scripts/emopicker9000.nix { inherit pkgs; })

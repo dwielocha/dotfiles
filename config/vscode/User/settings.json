@@ -2,5 +2,6 @@
   "window.titleBarStyle": "custom",
   "telemetry.telemetryLevel": "off",
   "nix.enableLanguageServer": true,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Catppuccin Mocha"
 }
